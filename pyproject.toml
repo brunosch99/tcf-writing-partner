@@ -1,0 +1,10 @@
+[project]
+name = "tcf-writing-partner"
+version = "1.0.0"
+description = "A reusable AI-assisted TCF Canada writing review and spaced-repetition template"
+requires-python = ">=3.10"
+dependencies = ["PyYAML>=6.0,<7"]
+
+[tool.unittest]
+start-directory = "tests"
+

@@ -1,0 +1,51 @@
+version: 1
+
+languages:
+  base: en
+  feedback: en
+  target: fr
+
+learner:
+  display_name: Learner
+  timezone: UTC
+  target_nclc: 7
+
+exam:
+  profile: tcf_canada
+  task_word_limits:
+    tache_1: [60, 120]
+    tache_2: [120, 150]
+    tache_3: [120, 180]
+  task_level_scale: [A1_not_achieved, A1, A2, B1, B2, C1, C2]
+  isolated_task_final_score_allowed: false
+  isolated_task_nclc_allowed: false
+
+training:
+  maximum_active_structures: 20
+  maximum_priorities_per_correction: 5
+  maximum_new_structures_per_session: 1
+  one_item_at_a_time: true
+  checkpoint_after_responses: 10
+  require_transfer_after_error: true
+  reveal_answer_before_attempt: false
+  allow_fill_in_the_blank: false
+
+daily_challenges:
+  minimum_study_days: 3
+  count_basis: study_days
+  graduation_requires_independent_correct_use: true
+  spaced_intervals_days: [3, 7, 14, 30]
+  include_all_active: true
+
+mastery:
+  minimum_correct_independent_uses: 5
+  minimum_distinct_contexts: 3
+  require_full_production_use: true
+  maximum_recent_errors: 1
+
+vocabulary:
+  enabled: true
+  suggest_only_after_attempt: true
+  accept_natural_alternatives: true
+  maximum_new_items_per_daily_session: 1
+  treat_style_alternative_as_error: false

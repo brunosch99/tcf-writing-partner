@@ -1,0 +1,46 @@
+{
+  "session_id": "example-session-001",
+  "date": "2026-01-05",
+  "type": "daily",
+  "submission_id": "example-tache-2",
+  "errors": [
+    {
+      "wrong_form": "participer dans une activité",
+      "correct_form": "participer à une activité",
+      "category": "PREP",
+      "secondary_category": "COLLOC",
+      "rule": "The verb participer takes à before an activity.",
+      "severity": "medium",
+      "notes": "Fictional example."
+    }
+  ],
+  "new_structures": [
+    {
+      "id": "S001",
+      "structure": "participer à + activity",
+      "meaning": "take part in an activity",
+      "match_error": {
+        "wrong_form": "participer dans une activité",
+        "category": "PREP"
+      }
+    }
+  ],
+  "new_challenges": [
+    {
+      "match_error": {
+        "wrong_form": "participer dans une activité",
+        "category": "PREP"
+      },
+      "structure_id": "S001",
+      "target": "Express participation in an activity",
+      "daily_eligible": true
+    }
+  ],
+  "challenge_results": [],
+  "structure_results": [],
+  "new_writing_upgrades": [],
+  "writing_upgrade_results": [],
+  "progress": null,
+  "notes": "This file contains fictional data. Copy it before experimenting."
+}
+

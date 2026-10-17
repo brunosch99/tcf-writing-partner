@@ -1,0 +1,16 @@
+{
+  "session_id": "replace-with-a-unique-session-id",
+  "date": "YYYY-MM-DD",
+  "type": "mock_exam_correction",
+  "submission_id": "replace-with-mock-exam-id",
+  "errors": [],
+  "new_structures": [],
+  "new_challenges": [],
+  "challenge_results": [],
+  "structure_results": [],
+  "new_writing_upgrades": [],
+  "writing_upgrade_results": [],
+  "progress": null,
+  "notes": "Add only evidence actually observed in the completed mock exam."
+}
+

@@ -1,0 +1,7 @@
+version: 1
+policy:
+  reveal_reference_after_first_attempt: true
+  completion_requires_memory_rewrite: true
+  completion_requires_transfer: true
+items: []
+

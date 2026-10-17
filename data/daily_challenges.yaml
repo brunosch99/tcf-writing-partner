@@ -1,0 +1,9 @@
+version: 1
+policy:
+  minimum_study_days: 3
+  checkpoint_after_responses: 10
+  count_basis: study_days
+  graduation_requires_independent_correct_use: true
+  spaced_intervals_days: [3, 7, 14, 30]
+challenges: []
+
